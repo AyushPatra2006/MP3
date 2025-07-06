@@ -1,8 +1,6 @@
 {
-  "score": 65.0,
+  "score": 75.0,
   "errors": [
-    "Question 4:\n---------------\nExpected type to be int, but found NoneType",
-    "Question 5:\n---------------\nExpected type to be int, but found NoneType",
     "Question 6:\n---------------\nExpected type to be Figure, but found NoneType",
     "Question 7:\n---------------\nExpected type to be Figure, but found NoneType",
     "Question 8:\n---------------\nExpected type to be Figure, but found NoneType",
@@ -12,5 +10,5 @@
   "module_errors": [],
   "missing": [],
   "hardcoding": [],
-  "summary": "Result: Score of 65.0% as average of 100.0% (modules) and 30% (notebook)."
+  "summary": "Result: Score of 75.0% as average of 100.0% (modules) and 50% (notebook)."
 }

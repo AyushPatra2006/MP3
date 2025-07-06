@@ -37,6 +37,15 @@ class BST():
 
     def dump(self):
         self.__dump(self.root)
+    def height(self):
+        return self._height(self.root)
+
+    def _height(self, node):
+        if node is None:
+            return -1  # by convention: height(empty) = -1, height(single node) = 0
+        left_height = self._height(node.left)
+        right_height = self._height(node.right)
+        return 1 + max(left_height, right_height)
 class Node():
     def __init__(self, key):
         self.key = key
