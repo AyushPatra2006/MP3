@@ -68,6 +68,29 @@ def loans_test():
     loans_points += 1
 
     # TEST: Loan class
+    loan_data = {
+        "loan_amount": "225000.0",
+        "property_value": "285000",
+        "interest_rate": "3.000",
+        "applicant_age": "55-64",
+        "applicant_race-1": "White",
+        "applicant_race-2": "",
+        "applicant_race-3": "",
+        "applicant_race-4": "",
+        "applicant_race-5": "",
+        "co-applicant_age": "9999",
+        "co-applicant_race-1": "",
+        "co-applicant_race-2": "",
+        "co-applicant_race-3": "",
+        "co-applicant_race-4": "",
+        "co-applicant_race-5": "",
+    }
+    l = loans.Loan(loan_data)
+    assert l.loan_amount == 225000.0
+    assert l.property_value == 285000.0
+    assert l.interest_rate == 3.0
+    assert len(l.applicants) == 1
+    loans_points += 4
 
     # init numeric fields
     d = {"loan_amount": "123", "property_value": "456", "interest_rate": "4.4",

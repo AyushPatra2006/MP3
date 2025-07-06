@@ -99,11 +99,3 @@ class Bank:
 
     def __getitem__(self, index):
         return self.loan_list[index]
-class BST:
-    def __init__(self):
-        self.root = None
-     
-    def __getitem__(self, key):
-        if self.root is None:
-            raise KeyError(f"{key} not found in empty BST")
-        return self.root.lookup(key)

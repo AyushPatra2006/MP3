@@ -1,5 +1,5 @@
 {
-  "score": 50.0,
+  "score": 65.0,
   "errors": [
     "Question 4:\n---------------\nExpected type to be int, but found NoneType",
     "Question 5:\n---------------\nExpected type to be int, but found NoneType",
@@ -9,11 +9,8 @@
     "Question 9:\n---------------\nExpected type to be int, but found NoneType",
     "Question 10:\n---------------\nExpected type to be float, but found NoneType"
   ],
-  "module_errors": [
-    "Traceback (most recent call last):\n  File \"/home/ayushpatra/labs-and-projects/projects/mp3/module_tester.py\", line 251, in main\n    search_test()\n  File \"/home/ayushpatra/labs-and-projects/projects/mp3/module_tester.py\", line 188, in search_test\n    assert t[\"A\"] == [2]\nTypeError: 'BST' object is not subscriptable\n",
-    "Additional points/test cases were not added to module_tester."
-  ],
+  "module_errors": [],
   "missing": [],
   "hardcoding": [],
-  "summary": "Result: Score of 50.0% as average of 70.0% (modules) and 30% (notebook)."
+  "summary": "Result: Score of 65.0% as average of 100.0% (modules) and 30% (notebook)."
 }

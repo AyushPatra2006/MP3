@@ -24,6 +24,10 @@ class BST():
                 break
 
         curr.values.append(val)
+    def __getitem__(self, key):
+        if self.root is None:
+            raise KeyError(f"{key} not found in empty BST")
+        return self.root.lookup(key)
     def __dump(self, node):
         if node == None:
             return
@@ -55,3 +59,5 @@ class Node():
             return self.right.lookup(key)
         else:
             return []        
+    
+   
