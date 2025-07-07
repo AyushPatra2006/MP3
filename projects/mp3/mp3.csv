@@ -7,5 +7,5 @@ question,type,value,stream,notes
 6,Figure,plt.Figure(),,
 7,Figure,plt.Figure(),,
 8,Figure,plt.Figure(),,
-9,NoneType,None,,
-10,NoneType,None,,
+9,int,63,,
+10,float,9.85,,

@@ -1,12 +1,8 @@
 {
-  "score": 85.0,
-  "errors": [
-    "\u001b[1mQuestion 8:\u001b[0m\nERRORS: Missing title. Make sure to add the title directly to the `ax` object.",
-    "Question 9:\n---------------\nExpected type to be int, but found NoneType",
-    "Question 10:\n---------------\nExpected type to be float, but found NoneType"
-  ],
+  "score": 100.0,
+  "errors": [],
   "module_errors": [],
   "missing": [],
   "hardcoding": [],
-  "summary": "Result: Score of 85.0% as average of 100.0% (modules) and 70% (notebook)."
+  "summary": "Result: Score of 100.0% as average of 100.0% (modules) and 100% (notebook)."
 }
