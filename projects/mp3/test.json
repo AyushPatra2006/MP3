@@ -1,14 +1,12 @@
 {
-  "score": 75.0,
+  "score": 85.0,
   "errors": [
-    "Question 6:\n---------------\nExpected type to be Figure, but found NoneType",
-    "Question 7:\n---------------\nExpected type to be Figure, but found NoneType",
-    "Question 8:\n---------------\nExpected type to be Figure, but found NoneType",
+    "\u001b[1mQuestion 8:\u001b[0m\nERRORS: Missing title. Make sure to add the title directly to the `ax` object.",
     "Question 9:\n---------------\nExpected type to be int, but found NoneType",
     "Question 10:\n---------------\nExpected type to be float, but found NoneType"
   ],
   "module_errors": [],
   "missing": [],
   "hardcoding": [],
-  "summary": "Result: Score of 75.0% as average of 100.0% (modules) and 50% (notebook)."
+  "summary": "Result: Score of 85.0% as average of 100.0% (modules) and 70% (notebook)."
 }
